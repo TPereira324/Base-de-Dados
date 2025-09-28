@@ -1,67 +1,53 @@
-Este repositório contém uma coleção de laboratórios de SQL realizados por Taha-Wur Pereira, abrangendo desde consultas básicas até consultas mais avançadas com subconsultas e junções.
+# README - SQL Labs
 
-📁 #Estrutura dos Ficheiros 
+![SQL](https://img.shields.io/badge/SQL-Database-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-LAB 1.docx — Consultas básicas: seleção, concatenação, ordenação, filtros e operações com datas.
+A collection of SQL labs covering from basic queries to advanced subqueries and joins, performed by **Taha-Wur Pereira**.
 
-LAB 2.docx — Funções de data, texto, substituição e cálculos de idade.
+## 📁 File Structure
 
-LAB 3.docx — Funções de agregação: COUNT, MAX, MIN, AVG e agrupamentos.
+| File | Description |
+|------|-------------|
+| `LAB 1.docx` | Basic queries: selection, concatenation, sorting, filters and date operations |
+| `LAB 2.docx` | Date functions, text functions, replacement and age calculations |
+| `LAB 3.docx` | Aggregate functions: `COUNT`, `MAX`, `MIN`, `AVG` and groupings |
+| `LAB 4.docx` | Table joins: `INNER JOIN`, `CROSS JOIN` and relationships |
+| `LAB 5.docx` | Subqueries and nested queries |
 
-LAB 4.docx — Junções entre tabelas: INNER JOIN, CROSS JOIN e relacionamentos.
+## 🧪 Labs Summary
 
-LAB 5.docx — Subconsultas e consultas aninhadas.
+### **LAB 1 - Basic Queries**
+- Column selection and string concatenation
+- Using `DISTINCT`, `ORDER BY`, `BETWEEN`, `LIKE`, `IS NULL`
+- Filters with `WHERE` and logical operators
 
-🧪 Resumo dos Conteúdos por Laboratório
-LAB 1
-Seleção de colunas e concatenação de strings
+### **LAB 2 - Functions and Formatting**
+- Date and time formatting
+- Text functions: `UPPER`, `LOWER`, `REPLACE`, `SUBSTR`
+- `COALESCE` for null values
+- `CASE` for value mapping
+- Age calculation with `TIMESTAMPDIFF`
 
-Uso de DISTINCT, ORDER BY, BETWEEN, LIKE, IS NULL
+### **LAB 3 - Aggregate Functions**
+- Aggregate functions: `COUNT`, `MAX`, `MIN`, `AVG`
+- Grouping with `GROUP BY`
+- Conditional counts and distinctions
 
-Filtros com WHERE e operadores lógicos
+### **LAB 4 - Table Joins**
+- Table joins: `student`, `course`, `class`, `department`, `studyplan`
+- Using `INNER JOIN` and `CROSS JOIN`
+- Queries with multiple related tables
 
-LAB 2
-Formatação de datas e horas
+### **LAB 5 - Subqueries**
+- Subqueries in `WHERE` and `SELECT`
+- Using `LIMIT` in subqueries
+- Correlated queries
+- Percentage calculations and group maximums
 
-Funções de texto: UPPER, LOWER, REPLACE, SUBSTR
 
-COALESCE para valores nulos
 
-CASE para mapeamento de valores
-
-Cálculo de idades com TIMESTAMPDIFF
-
-LAB 3
-Funções de agregação: COUNT, MAX, MIN, AVG
-
-Agrupamentos com GROUP BY
-
-Contagens com condições e distinções
-
-LAB 4
-Junções entre tabelas: student, course, class, department, studyplan
-
-Uso de INNER JOIN e CROSS JOIN
-
-Consultas com múltiplas tabelas relacionadas
-
-LAB 5
-Subconsultas em WHERE e SELECT
-
-Uso de LIMIT em subconsultas
-
-Consultas correlacionadas
-
-Cálculo de percentagens e máximos por grupo
-
-🛠️ Tecnologias Utilizadas
-SQL (MySQL / MariaDB)
-
-Funções de data, texto e agregação
-
-Junções e subconsultas
-
-👨‍💻 Autor
-Taha-Wur Pereira
-Estudante de Base de Dados e SQL
-
+## 👨‍💻 Author
+**Taha-Wur Pereira**
+-Database and SQL Student
