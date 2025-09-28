@@ -1,0 +1,24 @@
+create table student (
+					stu_id int not null auto_increment,
+					stu_name VARCHAR(60) not null, 		# student name
+					stu_place VARCHAR(30), 				# student address (the place part of it)
+					stu_bdate DATE not null, 			# student date of enrollment
+					stu_gender CHAR(1) not null, 		# student gender
+					stu_email VARCHAR(30), 				#student email
+					stu_cour_id INT,
+					primary key (stu_id)	
+);
+		     		     
+create table course (
+					cour_id int not null auto_increment,
+					cour_name VARCHAR(40) not null, 	# course name
+					primary key (cour_id)
+);
+
+-- Foreign Keys
+
+alter table student 
+add constraint student_fk_course
+foreign key (stu_cour_id) references course(cour_id) 
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
