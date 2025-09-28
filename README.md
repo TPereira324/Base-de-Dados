@@ -1,6 +1,6 @@
 Este repositório contém uma coleção de laboratórios de SQL realizados por Taha-Wur Pereira, abrangendo desde consultas básicas até consultas mais avançadas com subconsultas e junções.
 
-##📁 Estrutura dos Ficheiros 
+📁 # Estrutura dos Ficheiros 
 
 LAB 1.docx — Consultas básicas: seleção, concatenação, ordenação, filtros e operações com datas.
 
